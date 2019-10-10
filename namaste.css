@@ -1,0 +1,71 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+  }
+
+  nav ul {
+    text-align: center;
+    background-color: antiquewhite;
+    display: inline-block;
+    list-style: none;
+    width: 100%;
+    margin: 100px 0px;
+}
+
+nav ul li {
+    display: inline-block;
+    width: 20%;
+}
+
+li:hover {
+    background-color: #0EC8CB;
+    color: white;
+}
+
+a.anchor {
+    display: inline-block;
+    width: 90px;
+    height: 80px;
+    background: url(namaste/anchor.png);
+}
+
+a.anchor:hover {
+    background-image: url(namaste/anchorbl.png);
+}
+
+a.diamond {
+    display: inline-block;
+    width: 80px;
+    height: 70px;
+    background: url(namaste/diamond.png);
+}
+
+a.diamond:hover {
+    background-image: url(namaste/diamondbl.png);
+}
+
+a.glasses {
+    display: inline-block;
+    width: 80px;
+    height: 70px;
+    background: url(namaste/glasses.png);
+}
+
+a.glasses:hover {
+    background-image: url(namaste/glassesbl.png);
+}
+
+a.monitor {
+    display: inline-block;
+    width: 75px;
+    height: 70px;
+    background: url(namaste/monitor.png);
+}
+
+a.monitor:hover {
+    background-image: url(namaste/monitorbl.png);
+}
